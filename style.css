@@ -390,8 +390,12 @@ body{
                 .client_info{
                      text-align:center;
                      word-spacing:2px;
-                     line-height: 1.3rem;
+                     line-height: 1.5rem;
                    
+                     .name{
+                         font-weight: bold;
+                         letter-spacing: 2px;
+                     }
                 }
 
 
@@ -401,13 +405,7 @@ body{
 
        }
 
-       .arrows{
-        display: flex;
-        justify-content: center;
-        gap:1rem;
-        margin-top:1rem;
-        font-size:20px;
-  }
+ 
 
      
 }
